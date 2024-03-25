@@ -9,7 +9,6 @@ namespace LR8.Controllers
     {
         public IActionResult Index()
         {
-            // Створюємо декілька екземплярів продуктів для прикладу
             var products = new List<Product>
         {
             new Product { ID = 1, Name = "Борошно", Price = 25m, CreatedDate = DateTime.Now },
